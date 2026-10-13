@@ -185,7 +185,7 @@ body:not(.is-host) .hostOnly{display:none!important}body:not(.is-guest) .guestOn
       <p class="hint" style="text-align:center">3〜4人。足りない席はふーさん🐻（CPU）が入ります。各自のスマホ・PCで、自分の手札だけ見えます。</p>
     </div>
     <button class="btn" id="rulesBtn1" style="width:100%;margin-top:10px">あそびかた</button>
-    <a id="hirobaTitle" class="hiroba-fab" href="https://ryowatanabe1161-svg.github.io/fuusan-games/" style="position:static;display:none;margin:12px auto 0;width:fit-content" hidden>🏠 ひろばへ</a>
+    <a id="hirobaTitle" class="hiroba-fab" href="https://fuusan-games.github.io/fuusan-games/" style="position:static;display:none;margin:12px auto 0;width:fit-content" hidden>🏠 ひろばへ</a>
   </div>
 </section>
 
@@ -237,7 +237,7 @@ body:not(.is-host) .hostOnly{display:none!important}body:not(.is-guest) .guestOn
 <script src="logic.js"></script>
 <script src="app.js"></script>
 
-<a id="hirobaFab" class="hiroba-fab" href="https://ryowatanabe1161-svg.github.io/fuusan-games/" hidden>🏠 ひろばへ</a>
+<a id="hirobaFab" class="hiroba-fab" href="https://fuusan-games.github.io/fuusan-games/" hidden>🏠 ひろばへ</a>
 <style>
 .hiroba-fab{position:fixed;left:max(10px,env(safe-area-inset-left));bottom:max(10px,env(safe-area-inset-bottom));z-index:45;padding:7px 12px;border-radius:999px;background:rgba(255,253,247,.94);border:2px solid #d9c9a8;font:900 13px "Hiragino Sans","Noto Sans JP",system-ui,sans-serif;color:#2a2522;text-decoration:none;box-shadow:0 2px 8px rgba(0,0,0,.14);-webkit-tap-highlight-color:transparent}
 .hiroba-fab[hidden]{display:none!important}
@@ -245,7 +245,7 @@ body:not(.is-host) .hostOnly{display:none!important}body:not(.is-guest) .guestOn
 </style>
 <script>
 (function(){
-  var U='https://ryowatanabe1161-svg.github.io/fuusan-games/';
+  var U='https://fuusan-games.github.io/fuusan-games/';
   function want(){
     try{ if(new URLSearchParams(location.search).get('from')==='portal') return true; }catch(e){}
     try{ if(window.matchMedia('(display-mode: standalone)').matches) return true; }catch(e){}

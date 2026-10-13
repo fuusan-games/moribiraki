@@ -428,7 +428,7 @@
     $('dlg').onclick = function (e) {
       var b = e.target.closest('[data-m]'); if (e.target.closest('[data-x]')) return closeDlg(); if (!b) return; closeDlg();
       if (b.dataset.m === 'home') { clearTimeout(npcT); var g = G; G = null; save0(g); show('setup'); renderSetup(); }
-      else if (b.dataset.m === 'hiroba') location.href = 'https://ryowatanabe1161-svg.github.io/fuusan-games/';
+      else if (b.dataset.m === 'hiroba') location.href = 'https://fuusan-games.github.io/fuusan-games/';
       else newGame(G.players.map(function (p) { return { name: p.name, kind: p.kind }; }));
     };
   };
@@ -864,7 +864,7 @@
       else if (m === 'req') { send({ t: 'lobbyReq' }); toast('ホストに「ロビーに戻りたい」と伝えました'); }
       else if (m === 'vib') { lsSet(LS_VIB, vibOn() ? 'off' : 'on'); toast('振動 ' + (vibOn() ? 'ON' : 'OFF')); }
       else if (m === 'leave') leaveRoom();
-      else if (m === 'hiroba') location.href = 'https://ryowatanabe1161-svg.github.io/fuusan-games/';
+      else if (m === 'hiroba') location.href = 'https://fuusan-games.github.io/fuusan-games/';
     };
   }
   function leaveRoom() {

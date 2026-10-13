@@ -1,6 +1,6 @@
 # ふーさんの もりびらき 〜5つのめぐみで村づくり〜
 
-▶ **あそぶ: https://ryowatanabe1161-svg.github.io/moribiraki/**
+▶ **あそぶ: https://fuusan-games.github.io/moribiraki/**
 
 村づくりボードゲーム。3〜4人。タイトルで遊び方を選べます。
 
